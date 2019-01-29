@@ -53,10 +53,10 @@ var pick = function (action, functionData) {
                 // console.log(name)
                 // console.log(data.tracks)
                 for (var key in data.tracks.items) {
-                    console.log(data.tracks.items[key].artists[0].name);
-                    console.log(data.tracks.items[key].preview_url);
-                    console.log(data.tracks.items[key].name);
-                    console.log(data.tracks.items[key].album.name);
+                    console.log("Artist: " + data.tracks.items[key].artists[0].name);
+                    console.log("Preview: " + data.tracks.items[key].preview_url);
+                    console.log("Track Name: " + data.tracks.items[key].name);
+                    console.log("Album: " + data.tracks.items[key].album.name);
                 }
             }
 
